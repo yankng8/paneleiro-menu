@@ -1,0 +1,48 @@
+local library = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ShaddowScripts/Main/main/Library"))()
+
+local Main = library:CreateWindow("UWU HUB","Crimson")
+
+local tab = Main:CreateTab("Aims")
+local tab2 = Main:CreateTab("Visuais")
+local tab3 = Main:CreateTab("Misc")
+
+tab:CreateButton("AIM",function()
+    aim = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/script"))()
+end)
+
+tab:CreateButton("Silent",function()
+    silent = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/noclip"))()
+end)
+
+tab:CreateButton("Hitbox",function()
+    aimv2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/cust0mpixel/arsenal-hitbox-extender/refs/heads/main/arsenal_hitbox_extender"))()
+end)
+
+tab2:CreateButton("ESP CornerBox",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Cornerbox/Example"))()
+end)
+tab:Show()
+
+tab2:CreateButton("ESP Arrow",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/arrow"))()
+end)
+
+tab2:CreateButton("ESP Name",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Name/Example"))()
+end)
+
+tab2:CreateButton("ESP Radar",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Radar/Example"))()
+end)
+
+tab2:CreateButton("ESP Skeleton",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Skeleton/Example"))()
+end)
+
+tab3:CreateButton("Fly",function()
+    fly = loadstring(game:HttpGet("https://raw.githubusercontent.com/Entitynt/Roblox-Fly-Script/refs/heads/main/FlyCommand.lua"))()
+end)
+
+tab3:CreateButton("FlyV2",function()
+    flyv2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Swim-Fly/refs/heads/main/Swim%20Fly.lua"))()
+end)
