@@ -10,13 +10,11 @@ local win = BlekLib:Create({
 })
 
 local maintab = win:Tab('AIM/ESP')
-local charactertab = win:Tab('Character')
 local uitab = win:Tab('Config')
 
 uitab:Button('Fechar Menu', function()
     win:Exit()
 end)
-
 
 maintab:Button('Aimbot', function(v)
     aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/script"))()
