@@ -1,0 +1,19 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Paneleiro Menu KAMIKAZE GROUP")
+
+local serv = win:Server("Funções", "")
+
+local btns = serv:Channel("Aim/Esp")
+
+btns:Button('Aimbot', function(v)
+    aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/script"))()
+end)
+
+btns:Seperator()
+
+btns:Button('ESP', function(v)
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Cornerbox/Example"))()
+end)
+
+serv:Channel("By Yan/Lucas")
