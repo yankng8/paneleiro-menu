@@ -1,0 +1,29 @@
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({
+    Name = "GoticasNuas Menu",
+    StartupSound = {
+        Toggle = false,
+        SoundID = "rbxassetid://6958727243",
+        TimePosition = 1
+    }
+})
+
+local maintab = win:Tab('AIM/ESP')
+local charactertab = win:Tab('Character')
+local uitab = win:Tab('Config')
+
+uitab:Button('Fechar Menu', function()
+    win:Exit()
+end)
+
+
+maintab:Button('Aimbot', function(v)
+    aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/script"))()
+end)
+
+maintab:Button('ESP', function(v)
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Cornerbox/Example"))()
+end)
+
+maintab:Label('Feito Por Yan/Lucas')
