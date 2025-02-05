@@ -20,8 +20,25 @@ maintab:Button('Aimbot', function(v)
     aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/script"))()
 end)
 
-maintab:Button('ESP', function(v)
+maintab:Button('CornerBox', function(v)
     esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Cornerbox/Example"))()
 end)
+
+maintab:Button('Arrow', function(v)
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/arrow"))()
+end)
+
+maintab:Button('Name', function(v)
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Name/Example"))()
+end)
+
+maintab:Button('Skeleton', function(v)
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Skeleton/Example"))()
+end)
+
+maintab:Button('Skeleton', function(v)
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Radar/Example"))()
+end)
+
 
 maintab:Label('Feito Por Yan/Lucas')
